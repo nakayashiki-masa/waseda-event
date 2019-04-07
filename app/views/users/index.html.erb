@@ -1,0 +1,8 @@
+<h2>ユーザー一覧</h2>
+<div class="profile">
+  <% @users.each do |user| %>
+    <p>名前：<%= user.name %></p>
+    <p>学年：<%= user.grade %></p>
+    <br>
+  <% end %>
+</div>
